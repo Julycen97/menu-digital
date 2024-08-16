@@ -1,0 +1,180 @@
+body {
+    background-color: rgba(253, 209, 190, 0.352);
+    font-weight: bolder;
+}
+
+.divHeader {
+    padding: 10px;
+    margin: auto;
+    height: 20em;
+    background-image: linear-gradient(rgba(191, 192, 194, 0.20), rgba(191, 192, 194, 0.20)), url("/assets/IMG/fondo-principal.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 15px 15px;
+    align-content: center;
+}
+
+.divHeader img {
+    padding: 10px;
+    margin: auto;
+    width: 15em;
+    display: flex;
+    border-radius: 80px;
+}
+
+.divHeader h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    -webkit-text-stroke: 0.5px black;
+    color: whitesmoke;
+}
+
+div>h2 {
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.First {
+    padding: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.First summary {
+    padding: 20px;
+    font-size: x-large;
+    list-style-type: '👉🏻';
+    transition: 400ms;
+    cursor: pointer;
+}
+
+summary:hover{
+    color:brown;
+    font-size: xx-large;
+}
+
+.First details {
+    padding: 10px;
+}
+
+.First details[open] summary {
+    margin-bottom: 10px;
+    list-style-type: '👇🏻';
+}
+
+#free-menu{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/menu-libre-fondo.jpg");    
+}
+
+#pizzas{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/pizza-Fondo.jpg");    
+}
+
+#promotion{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/promos-fondo.jpg"); 
+}
+
+#tickets{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/entradas-fondo.jpg");}
+
+#bur-sand{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/hambur-fondo.jpg");
+}
+
+#milanese{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/milanesas-fondo.jpg");
+}
+
+#pasta{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/pastas-fondo.jpg");
+}
+
+#desserts{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/postres-fondo.jpeg");
+}
+
+#drinks{
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("/assets/IMG/bebidas-fondo.jpeg");  
+}
+
+.IMGSecciones{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 15px 15px;
+}
+
+table, th, td {
+    padding: 10px;
+    margin: auto;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 80%;
+}
+
+th {
+    color: rgb(158, 4, 4);
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+}
+
+td {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    color:whitesmoke;
+    width: 10em;
+    -webkit-text-stroke: 0.5px black;
+}
+
+th+th {
+    text-align: right;
+}
+
+td+td {
+    text-align: right;
+}
+
+.contact-networks {
+    display: flex;
+    justify-content: space-between;
+    height: 15em;
+    width: 100%;
+    background-color: brown;
+    border-radius: 15px 15px 0 0;
+}
+
+.contact-networks img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.contact-networks button{
+    border: none;
+    width: 35%;
+    height: 15%;
+    border-radius: 8px;
+    opacity: 0.6;
+}
+
+.contact-networks button:hover{
+    box-shadow: 0.5px 0.5px 10px;
+    cursor: pointer;
+}
+
+.contact-networks button img{
+    width: 25%;
+}
+
+.contact-networks div{
+    width: 30%;
+    text-align: center;
+    align-content: center;
+}
