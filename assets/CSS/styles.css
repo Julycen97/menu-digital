@@ -7,7 +7,7 @@ body {
     padding: 10px;
     margin: auto;
     height: 20em;
-    background-image: linear-gradient(rgba(191, 192, 194, 0.20), rgba(191, 192, 194, 0.20)), url("../assets/IMG/fondo-principal.jpg");
+    background-image: linear-gradient(rgba(191, 192, 194, 0.20), rgba(191, 192, 194, 0.20)), url("../IMG/fondo-principal.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 0 0 15px 15px;
@@ -67,38 +67,38 @@ summary:hover{
 }
 
 #free-menu{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/menu-libre-fondo.jpg");    
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/menu-libre-fondo.jpg");    
 }
 
 #pizzas{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/pizza-Fondo.jpg");    
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/pizza-Fondo.jpg");    
 }
 
 #promotion{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/promos-fondo.jpg"); 
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/promos-fondo.jpg"); 
 }
 
 #tickets{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/entradas-fondo.jpg");}
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/entradas-fondo.jpg");}
 
 #bur-sand{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/hambur-fondo.jpg");
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/hambur-fondo.jpg");
 }
 
 #milanese{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/milanesas-fondo.jpg");
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/milanesas-fondo.jpg");
 }
 
 #pasta{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/pastas-fondo.jpg");
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/pastas-fondo.jpg");
 }
 
 #desserts{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/postres-fondo.jpeg");
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/postres-fondo.jpeg");
 }
 
 #drinks{
-    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../assets/IMG/bebidas-fondo.jpeg");  
+    background-image: linear-gradient(rgba(191, 192, 194, 0.50), rgba(191, 192, 194, 0.50)), url("../IMG/bebidas-fondo.jpeg");  
 }
 
 .IMGSecciones{
