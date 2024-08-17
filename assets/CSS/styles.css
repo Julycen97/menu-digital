@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     background: linear-gradient(to left, rgba(204, 70, 70, 0.804), rgba(204, 175, 70, 0.804), rgba(164, 204, 70, 0.804), rgba(70, 204, 121, 0.804), rgba(70, 175, 204, 0.804), rgba(70, 117, 204, 0.804), rgba(110, 70, 204, 0.804), rgba(188, 70, 204, 0.804), rgba(204, 70, 92, 0.804));
     font-weight: bolder;
