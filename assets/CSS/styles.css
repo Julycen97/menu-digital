@@ -36,6 +36,7 @@ body {
 div>h2 {
     padding: 10px;
     text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode';
     font-size: 1.5em;
     font-weight: bolder;
     text-decoration: underline;
@@ -75,7 +76,7 @@ summary:hover{
 }
 
 #pizzas{
-    background-image: linear-gradient(rgba(69, 70, 70, 0.5), rgba(77, 77, 77, 0.5)), url("../IMG/pizza-Fondo.jpg");    
+    background-image: linear-gradient(rgba(69, 70, 70, 0.5), rgba(77, 77, 77, 0.5)), url("../IMG/pizza-fondo.jpg");    
 }
 
 #promotion{
