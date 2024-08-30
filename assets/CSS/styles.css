@@ -68,6 +68,7 @@ summary:hover{
 
 .First details {
     padding: 10px;
+    transition: 300ms;
 }
 
 .First details[open] summary {
@@ -174,6 +175,7 @@ td+td {
     width: 50px;
     border-radius: 8px;
     opacity: 0.6;
+    transition: 300ms;
 }
 
 .contact-networks button:hover{
