@@ -4,337 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/CSS/reset-CSS.css">
-    <link rel="stylesheet" href="assets/CSS/styles.css">
-    <link rel="icon" href="assets/IMG/favicon-16x16.png">
-    <title>Menú Digital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./assets/CSS/styles.css">
+    <title>Menú Online</title>
 </head>
 
 <body>
+    <header class="header">
+        <div id="containerDatos">
+            <div id="nombre">
+                <h2>IL FORNAIO</h2>
+            </div>
+            <div id="ubicacion">
+                <h4>
+                    <p><i class="bi bi-geo-alt"></i> Calle 10 675, Pilar</p>
+                </h4>
+                <h4>
+                    <p><i class="bi bi-clock"></i> Martes a Domingo de 19:30 a 23:30</p>
+                </h4>
+            </div>
 
-    <div class="divHeader" id="header" role="presentation">
-        <div>
-            <img id="img-logo" src="assets/IMG/principal-fondo.jpg" alt="pizzeria">
-            <h1>LAS MEJORES PIZZAS DE ZONA NORTE</h1>
-        </div>
-    </div>
+            <div id="contacto">
+                <h4>
+                    <p><i class="bi bi-telephone"></i> 0230 466-0000</p>
+                </h4>
+                <h4>
+                    <p><i class="bi bi-envelope"></i> correo-ficticio@hotmail.com</p>
+                </h4>
+            </div>
 
-    <main>
-        <div id="major">
-            <div id="meals" class="First">
-
-                <h2>Opciones Libres</h2>
-                <section id="free-menu" class="IMGSecciones">
-                    <details open>
-                        <summary>Menú Libre</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Opciones</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Pizza Libre</td>
-                                    <td>$8.000</td>
-                                </tr>
-                                <tr>
-                                    <td>Pastas Libre</td>
-                                    <td>$9.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <h2>Comidas</h2>
-                <section id="pizzas" class="IMGSecciones">
-                    <details>
-                        <summary>Pizzas</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Gustos</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Muzzarella</td>
-                                    <td>$3.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Jamón y Morron</td>
-                                    <td>$7.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Anchoas</td>
-                                    <td>$6.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Napolitana</td>
-                                    <td>$5.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Huevo</td>
-                                    <td>$4.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Verdeo</td>
-                                    <td>$6.500</td>
-                                </tr>
-                                <tr>
-                                    <td>Primavera</td>
-                                    <td>$5.500</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <br>
-
-                <section id="promotion" class="IMGSecciones">
-                    <details>
-                        <summary>Promos del día</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Promos</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Promo 1</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Promo 2</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Promo 3</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <br>
-
-                <section id="tickets" class="IMGSecciones">
-                    <details>
-                        <summary>Entradas</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Entradas</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Bastones de Muzzarella</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Picada para dos</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Papas con Cheddar</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <br>
-
-                <section id="bur-sand" class="IMGSecciones">
-                    <details>
-                        <summary>Hamburguesas y Sandwiches</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Hamburguesas</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Clasica</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Especial de la casa</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Simple</td>
-                                    <td>$14.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Completa</td>
-                                    <td>$13.000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <br>
-
-                <section id="milanese" class="IMGSecciones">
-                    <details>
-                        <summary>Milanesas</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Milanesas</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Simple</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Completa</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Especial de la casa</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <br>
-
-                <section id="pasta" class="IMGSecciones">
-                    <details>
-                        <summary>Pastas</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Pastas</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Fideos con Bolognesa</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Sorrentinos con Bolognesa</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Ñoquis de Papa con Bolognesa</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <h2>Postres</h2>
-                <section id="desserts" class="IMGSecciones">
-                    <details>
-                        <summary>Postres</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Postres</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Flan</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Helado</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Bombón Suizo</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
-
-                <h2>Bebidas</h2>
-                <section id="drinks" class="IMGSecciones">
-                    <details>
-                        <summary>Bebidas</summary>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Bebidas</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Birra</td>
-                                    <td>$10.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Gaseosa</td>
-                                    <td>$12.800</td>
-                                </tr>
-                                <tr>
-                                    <td>Agua Saborizada</td>
-                                    <td>$14.800</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </details>
-                </section>
+            <div id="redes">
+                <h3><strong>Nuestros Canales de Contacto</strong></h3>
+                <h4>
+                    <p><i class="bi bi-instagram"></i></p>
+                    <p><i class="bi bi-whatsapp"></i></p>
+                </h4>
             </div>
         </div>
+        <div id="logo" role="img"></div>
+    </header>
+    <main class="main">
+        <section>
+            <div>
+                <div name="entradas" onclick="redireccionar(this)"><p>Entradas</p></div>
+                <div name="pizzas" onclick="redireccionar(this)"><p>Pizzas</p></div>
+                <div name="sandwiches" onclick="redireccionar(this)"><p>Sandwiches</p></div>
+                <div name="aperitivos" onclick="redireccionar(this)"><p>Aperitivos</p></div>
+                <div name="bebidas" onclick="redireccionar(this)"><p>Bebidas</p></div>
+                <div name="postres" onclick="redireccionar(this)"><p>Postres</p></div>
+            </div>
+        </section>
+
+        <section id="entradas">
+            <div>
+                <h2>ENTRADAS</h2>
+            </div>
+        </section>
+
+        <section id="pizzas">
+            <div>
+                <h2>PIZZAS</h2>
+            </div>
+        </section>
+
+        <section id="sandwiches">
+            <div>
+                <h2>SANDWICHES</h2>
+            </div>
+        </section>
+
+        <section id="aperitivos">
+            <div>
+                <h2>APERITIVOS</h2>
+            </div>
+        </section>
+
+        <section id="bebidas">
+            <div>
+                <h2>BEBIDAS</h2>
+            </div>
+        </section>
+
+        <section id="postres">
+            <div>
+                <h2>POSTRES</h2>
+            </div>
+        </section>
     </main>
 
-    <footer class="contact-networks">
-        <div>
-            <a href="#header"><img src="assets/IMG/principal-fondo.jpg" alt="logo-local"></a>
-        </div>
-
-        <div>
-            <h2>CONTACTO</h2>
-
-            <br>
-
-            <address>
-                <ul>
-                    <li>📞 (+54) 11-23456789</li>
-                    <li>📌 Ubicación - Bs. As</li>
-                    <li>📩 pizzas@gmail.com</li>
-                </ul>
-            </address>
-        </div>
-
-        <div>
-            <button id="btnLinkedIn"><a href="https://www.linkedin.com/in/julian-centurion/" target="_blank"
-                    rel="noopener nooreferrer"><img src="assets/IMG/icono-linkedin.png" alt="LinkedIn"></a></button>
-            <button id="btnGithub"><a href="https://github.com/Julycen97" target="_blank"><img
-                        src="assets/IMG/icono-github.png" alt="GitHub"></a></button>
-        </div>
-
+    <footer class="footer">
+        <div id="infoCreador" role="contentinfo"></div>
     </footer>
+
+    <script type="text/javascript" src="./assets/JS/main.js"></script>
 </body>
 
 </html>
